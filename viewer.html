@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Copyright (c) Tumiz. Distributed under the terms of the GPL-3.0 License. -->
+<html>
+<link rel="icon" href="static/logo.png" />
+
+<head>
+    <meta charset="utf-8">
+    <title>ScenarioViewer</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position:absolute;color:blue;background-color:rgb(29, 28, 28);word-break:break-all;word-wrap:break-word;color:aliceblue">
+        <span id="btn" style="cursor:pointer">▶️</span>
+        <span id="info" >
+            0 s</span>
+    </div>
+    <div id="userdefined"
+        style="position:absolute;top:20px;color:blue;background-color:white;word-break:break-all;word-wrap:break-word;">
+    </div>
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="static/js/3dlib.js"></script>
+    <script src="static/js/orbit.js"></script>
+    <script src="static/js/viewer.js"></script>
+</body>
+
+</html>
